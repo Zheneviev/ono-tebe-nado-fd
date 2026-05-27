@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 100px 50px 94px 50px;
+  padding: 90px 50px 94px 50px;
   font-size: 18px;
   letter-spacing: 0.2px;
 }
@@ -58,7 +58,6 @@
   color: white;
   padding: 50px;
   text-transform: uppercase;
-  color: #ffffff;
   z-index: -2;
 }
 
@@ -249,7 +248,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 180px 50px 200px 50px;
+  margin: 180px 50px 0px 50px;
   justify-content: space-between;
   font-size: 18px;
 }
