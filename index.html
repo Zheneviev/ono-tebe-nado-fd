@@ -20,7 +20,7 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list ">
-          <li class="header__links-list-item_no-bullit">
+          <li class="header__links-list-item header__links-list-item_no-bullit"> <!--исправлен класс-->
             <a class="header__link_active" href="#0">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -68,8 +68,8 @@
           <span class="aligned-text_center span__title">тебе</span>
           <span class="aligned-text_right span__title">надо</span>
           </h1>
-          <div class="overlay"></div>
         <div class="cover__description">
+          <!--убрал задубрированный оверлей-->
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
@@ -102,11 +102,11 @@
                <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2>
-                <span class="card__text">
+                <p class="card__text"> <!--исправил класс-->
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский.
                    В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
                    И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                </span>
+                </p>
                </article>
              </a>
            </li>
@@ -138,7 +138,7 @@
           </div>
         </div>
         <div>
-          <h3 class="about__title">об аукционе</h3>
+          <h2 class="about__title">об аукционе</h2> <!--исправлен уровень заголовка-->
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
@@ -178,7 +178,7 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active">главная</a>
+            <a class="footer__menu-link footer__menu-link_active">главная</a> <!--исправил класс-->
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link"  href="#0">посмотреть лоты</a>
